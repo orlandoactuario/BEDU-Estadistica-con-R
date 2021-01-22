@@ -1,0 +1,15 @@
+altura <- read.csv("https://raw.githubusercontent.com/beduExpert/Programacion-con-R-Santander/master/Sesion-03/Reto-01/BD_Altura_Alunos.csv", sep=";")
+head(altura)
+
+hist(altura$Altura, 
+     breaks = 40,
+     main = "Altura alumnos",
+     ylab = "Frecuencia",
+     xlab = "Altura", 
+     col = "red")
+
+ggplot(altura, aes(Altura))+
+  geom_histogram(binwidth = 1, col="red") + 
+  ggtitle("Altura alumnos") +
+  ylab("Frecuencia") +
+  xlab("Altura")
