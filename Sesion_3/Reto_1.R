@@ -13,3 +13,6 @@ ggplot(altura, aes(Altura))+
   ggtitle("Altura alumnos") +
   ylab("Frecuencia") +
   xlab("Altura")
+
+#ambos metodos son faciles de entender e implementar, ggplot es un poco mas dificil de usar
+#pero taambien es mas flexible, pero cada uno se adaptará mejor deacuerdo al contexto.
