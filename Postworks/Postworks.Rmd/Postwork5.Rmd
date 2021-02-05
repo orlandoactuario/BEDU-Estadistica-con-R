@@ -7,9 +7,9 @@ author:
 - Andrés Benjamín Sánchez Alvarado
 date: "18/01/2021"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
